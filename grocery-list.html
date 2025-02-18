@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grocery List</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Main Header -->
+  <header>
+    <h1 style="color: darkblue;">My Grocery List</h1> <!-- Inline CSS -->
+  </header>
+
+  <main>
+
+    <!-- Pantry Items Section -->
+    <section class="grocery-section pantry">
+      <h2>Pantry Items</h2>
+
+      <div class="category-container">
+        <h3>Canned</h3>
+        <ul>
+          <li>Corn</li>
+          <li>Tuna</li>
+          <li>Green Beans</li>
+          <li>Beans</li>
+        </ul>
+      </div>
+
+      <div class="category-container">
+        <h3>Dry Goods</h3>
+        <ul>
+          <li>Rice</li>
+          <li>Lentils</li>
+          <li>Oats</li>
+          <li>Pasta</li>
+        </ul>
+      </div>
+
+      <div class="image-box">
+        <img src="images/canned.jpeg" alt="Canned Food">
+      </div>
+      
+      <div class="image-box">
+        <img src="images/dry.jpeg" alt="Dry Goods">
+      </div>
+
+    </section>
+
+    <!-- Freezer Items Section -->
+    <section class="grocery-section frozen">
+      <h2>Freezer Items</h2>
+
+      <div class="category-container">
+        <h3>Veggies</h3>
+        <ol>
+          <li>Broccoli</li>
+          <li>Carrots</li>
+          <li>Cauliflower</li>
+          <li>Peas</li>
+        </ol>
+      </div>
+
+      <div class="category-container">
+        <h3>Snacks</h3>
+        <ol>
+          <li>Curly Fries</li>
+          <li>Hot Pockets</li>
+          <li>Hamburgers</li>
+          <li>Prezels</li>
+        </ol>
+      </div>
+
+      <div class="image-box">
+        <img src="images/veggies.jpeg" alt="Frozen Veggies">
+      </div>
+      
+      <div class="image-box">
+        <img src="images/snacks.jpeg" alt="Frozen Snacks">
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Isabell's Groceries. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

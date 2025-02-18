@@ -1,0 +1,105 @@
+/* Apply box-sizing to all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------
+   HEADER
+---------------------- */
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* ----------------------
+   MAIN CONTAINER
+---------------------- */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ----------------------
+   GROCERY SECTIONS
+---------------------- */
+.grocery-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Different Background Colors for Sections */
+.pantry {
+  background-color: #fae3c8; /* Light Peach */
+}
+
+.frozen {
+  background-color: #d3eafd; /* Light Blue */
+}
+
+/* Section Titles */
+.grocery-section h2 {
+  background-color: #e5dfd2;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* CATEGORY CONTAINER */
+.category-container {
+  display: inline-block;
+  width: 45%;
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin: 10px 2%;
+  border-radius: 5px;
+  vertical-align: top;
+}
+
+/* Subcategory Title */
+.grocery-section h3 {
+  font-weight: bold;
+  padding: 5px 0;
+  border-bottom: 2px solid #333;
+  text-transform: uppercase;
+}
+
+/* LIST STYLING */
+.grocery-section ul,
+.grocery-section ol {
+  list-style-position: inside;
+  margin-top: 10px;
+}
+
+/* IMAGE STYLING */
+.image-box {
+  display: inline-block;
+  width: 45%;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+/* ----------------------
+   FOOTER
+---------------------- */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+}
