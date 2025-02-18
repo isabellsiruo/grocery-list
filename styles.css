@@ -5,27 +5,21 @@
   padding: 0;
 }
 
-/* ----------------------
-   HEADER
----------------------- */
+/* Header */
 header {
   text-align: center;
   padding: 20px;
   font-size: 24px;
 }
 
-/* ----------------------
-   MAIN CONTAINER
----------------------- */
+/* Main Container */
 main {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
 }
 
-/* ----------------------
-   GROCERY SECTIONS
----------------------- */
+/* Grocery Sections */
 .grocery-section {
   margin-bottom: 20px;
   padding: 15px;
@@ -34,11 +28,11 @@ main {
 
 /* Different Background Colors for Sections */
 .pantry {
-  background-color: #fae3c8; /* Light Peach */
+  background-color: #fae3c8;
 }
 
 .frozen {
-  background-color: #d3eafd; /* Light Blue */
+  background-color: #d3eafd;
 }
 
 /* Section Titles */
@@ -50,7 +44,7 @@ main {
   border-radius: 5px;
 }
 
-/* CATEGORY CONTAINER */
+/* Category Container */
 .category-container {
   display: inline-block;
   width: 45%;
@@ -69,14 +63,14 @@ main {
   text-transform: uppercase;
 }
 
-/* LIST STYLING */
+/* List Styling */
 .grocery-section ul,
 .grocery-section ol {
   list-style-position: inside;
   margin-top: 10px;
 }
 
-/* IMAGE STYLING */
+/* Image Styling */
 .image-box {
   display: inline-block;
   width: 45%;
@@ -93,9 +87,7 @@ main {
   border-radius: 5px;
 }
 
-/* ----------------------
-   FOOTER
----------------------- */
+/* Footer */
 footer {
   text-align: center;
   padding: 10px;
